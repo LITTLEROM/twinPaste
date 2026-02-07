@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D865D62F37C7BB00250E82 /* twinPasteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865D52F37C7BB00250E82 /* twinPasteApp.swift */; };
+		D0D865D82F37C7BB00250E82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865D72F37C7BB00250E82 /* ContentView.swift */; };
+		D0D865DA2F37C7BE00250E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D865D92F37C7BE00250E82 /* Assets.xcassets */; };
+		D0D865DD2F37C7BE00250E82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */; };
+		D0D865E82F37C7BE00250E82 /* twinPasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */; };
+		D0D865F22F37C7BE00250E82 /* twinPasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */; };
+		D0D865F42F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D865E42F37C7BE00250E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D865CA2F37C7BB00250E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D865D12F37C7BB00250E82;
+			remoteInfo = twinPaste;
+		};
+		D0D865EE2F37C7BE00250E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D865CA2F37C7BB00250E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D865D12F37C7BB00250E82;
+			remoteInfo = twinPaste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0D865D22F37C7BB00250E82 /* twinPaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twinPaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D865D52F37C7BB00250E82 /* twinPasteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteApp.swift; sourceTree = "<group>"; };
+		D0D865D72F37C7BB00250E82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0D865D92F37C7BE00250E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0D865DE2F37C7BE00250E82 /* twinPaste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twinPaste.entitlements; sourceTree = "<group>"; };
+		D0D865E32F37C7BE00250E82 /* twinPasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twinPasteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteTests.swift; sourceTree = "<group>"; };
+		D0D865ED2F37C7BE00250E82 /* twinPasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twinPasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteUITests.swift; sourceTree = "<group>"; };
+		D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D865CF2F37C7BB00250E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865E02F37C7BE00250E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865EA2F37C7BE00250E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D865C92F37C7BB00250E82 = {
+			isa = PBXGroup;
+			children = (
+				D0D865D42F37C7BB00250E82 /* twinPaste */,
+				D0D865E62F37C7BE00250E82 /* twinPasteTests */,
+				D0D865F02F37C7BE00250E82 /* twinPasteUITests */,
+				D0D865D32F37C7BB00250E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D865D32F37C7BB00250E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D865D22F37C7BB00250E82 /* twinPaste.app */,
+				D0D865E32F37C7BE00250E82 /* twinPasteTests.xctest */,
+				D0D865ED2F37C7BE00250E82 /* twinPasteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D865D42F37C7BB00250E82 /* twinPaste */ = {
+			isa = PBXGroup;
+			children = (
+				D0D865D52F37C7BB00250E82 /* twinPasteApp.swift */,
+				D0D865D72F37C7BB00250E82 /* ContentView.swift */,
+				D0D865D92F37C7BE00250E82 /* Assets.xcassets */,
+				D0D865DE2F37C7BE00250E82 /* twinPaste.entitlements */,
+				D0D865DB2F37C7BE00250E82 /* Preview Content */,
+			);
+			path = twinPaste;
+			sourceTree = "<group>";
+		};
+		D0D865DB2F37C7BE00250E82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0D865E62F37C7BE00250E82 /* twinPasteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */,
+			);
+			path = twinPasteTests;
+			sourceTree = "<group>";
+		};
+		D0D865F02F37C7BE00250E82 /* twinPasteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */,
+				D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */,
+			);
+			path = twinPasteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D865D12F37C7BB00250E82 /* twinPaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D865F72F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPaste" */;
+			buildPhases = (
+				D0D865CE2F37C7BB00250E82 /* Sources */,
+				D0D865CF2F37C7BB00250E82 /* Frameworks */,
+				D0D865D02F37C7BB00250E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twinPaste;
+			productName = twinPaste;
+			productReference = D0D865D22F37C7BB00250E82 /* twinPaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D865E22F37C7BE00250E82 /* twinPasteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D865FA2F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPasteTests" */;
+			buildPhases = (
+				D0D865DF2F37C7BE00250E82 /* Sources */,
+				D0D865E02F37C7BE00250E82 /* Frameworks */,
+				D0D865E12F37C7BE00250E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D865E52F37C7BE00250E82 /* PBXTargetDependency */,
+			);
+			name = twinPasteTests;
+			productName = twinPasteTests;
+			productReference = D0D865E32F37C7BE00250E82 /* twinPasteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0D865EC2F37C7BE00250E82 /* twinPasteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D865FD2F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPasteUITests" */;
+			buildPhases = (
+				D0D865E92F37C7BE00250E82 /* Sources */,
+				D0D865EA2F37C7BE00250E82 /* Frameworks */,
+				D0D865EB2F37C7BE00250E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D865EF2F37C7BE00250E82 /* PBXTargetDependency */,
+			);
+			name = twinPasteUITests;
+			productName = twinPasteUITests;
+			productReference = D0D865ED2F37C7BE00250E82 /* twinPasteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D865CA2F37C7BB00250E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D0D865D12F37C7BB00250E82 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D0D865E22F37C7BE00250E82 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D0D865D12F37C7BB00250E82;
+					};
+					D0D865EC2F37C7BE00250E82 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D0D865D12F37C7BB00250E82;
+					};
+				};
+			};
+			buildConfigurationList = D0D865CD2F37C7BB00250E82 /* Build configuration list for PBXProject "twinPaste" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D865C92F37C7BB00250E82;
+			productRefGroup = D0D865D32F37C7BB00250E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D865D12F37C7BB00250E82 /* twinPaste */,
+				D0D865E22F37C7BE00250E82 /* twinPasteTests */,
+				D0D865EC2F37C7BE00250E82 /* twinPasteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D865D02F37C7BB00250E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D865DD2F37C7BE00250E82 /* Preview Assets.xcassets in Resources */,
+				D0D865DA2F37C7BE00250E82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865E12F37C7BE00250E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865EB2F37C7BE00250E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D865CE2F37C7BB00250E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D865D82F37C7BB00250E82 /* ContentView.swift in Sources */,
+				D0D865D62F37C7BB00250E82 /* twinPasteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865DF2F37C7BE00250E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D865E82F37C7BE00250E82 /* twinPasteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D865E92F37C7BE00250E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D865F42F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift in Sources */,
+				D0D865F22F37C7BE00250E82 /* twinPasteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D865E52F37C7BE00250E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D865D12F37C7BB00250E82 /* twinPaste */;
+			targetProxy = D0D865E42F37C7BE00250E82 /* PBXContainerItemProxy */;
+		};
+		D0D865EF2F37C7BE00250E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D865D12F37C7BB00250E82 /* twinPaste */;
+			targetProxy = D0D865EE2F37C7BE00250E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0D865F52F37C7BE00250E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0D865F62F37C7BE00250E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0D865F82F37C7BE00250E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = twinPaste/twinPaste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"twinPaste/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPaste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0D865F92F37C7BE00250E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = twinPaste/twinPaste.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"twinPaste/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPaste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0D865FB2F37C7BE00250E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPasteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twinPaste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/twinPaste";
+			};
+			name = Debug;
+		};
+		D0D865FC2F37C7BE00250E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPasteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twinPaste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/twinPaste";
+			};
+			name = Release;
+		};
+		D0D865FE2F37C7BE00250E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPasteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = twinPaste;
+			};
+			name = Debug;
+		};
+		D0D865FF2F37C7BE00250E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RP-Labs.twinPasteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = twinPaste;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D865CD2F37C7BB00250E82 /* Build configuration list for PBXProject "twinPaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D865F52F37C7BE00250E82 /* Debug */,
+				D0D865F62F37C7BE00250E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D865F72F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D865F82F37C7BE00250E82 /* Debug */,
+				D0D865F92F37C7BE00250E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D865FA2F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPasteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D865FB2F37C7BE00250E82 /* Debug */,
+				D0D865FC2F37C7BE00250E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D865FD2F37C7BE00250E82 /* Build configuration list for PBXNativeTarget "twinPasteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D865FE2F37C7BE00250E82 /* Debug */,
+				D0D865FF2F37C7BE00250E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D865CA2F37C7BB00250E82 /* Project object */;
+}
