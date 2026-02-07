@@ -11,9 +11,6 @@
 		D0D865D82F37C7BB00250E82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865D72F37C7BB00250E82 /* ContentView.swift */; };
 		D0D865DA2F37C7BE00250E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D865D92F37C7BE00250E82 /* Assets.xcassets */; };
 		D0D865DD2F37C7BE00250E82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */; };
-		D0D865E82F37C7BE00250E82 /* twinPasteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */; };
-		D0D865F22F37C7BE00250E82 /* twinPasteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */; };
-		D0D865F42F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0D865DE2F37C7BE00250E82 /* twinPaste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twinPaste.entitlements; sourceTree = "<group>"; };
 		D0D865E32F37C7BE00250E82 /* twinPasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twinPasteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteTests.swift; sourceTree = "<group>"; };
 		D0D865ED2F37C7BE00250E82 /* twinPasteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twinPasteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteUITests.swift; sourceTree = "<group>"; };
-		D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twinPasteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				D0D865D42F37C7BB00250E82 /* twinPaste */,
-				D0D865E62F37C7BE00250E82 /* twinPasteTests */,
-				D0D865F02F37C7BE00250E82 /* twinPasteUITests */,
 				D0D865D32F37C7BB00250E82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				D0D865DC2F37C7BE00250E82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D0D865E62F37C7BE00250E82 /* twinPasteTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0D865E72F37C7BE00250E82 /* twinPasteTests.swift */,
-			);
-			path = twinPasteTests;
-			sourceTree = "<group>";
-		};
-		D0D865F02F37C7BE00250E82 /* twinPasteUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D0D865F12F37C7BE00250E82 /* twinPasteUITests.swift */,
-				D0D865F32F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift */,
-			);
-			path = twinPasteUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D865E82F37C7BE00250E82 /* twinPasteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D865F42F37C7BE00250E82 /* twinPasteUITestsLaunchTests.swift in Sources */,
-				D0D865F22F37C7BE00250E82 /* twinPasteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
